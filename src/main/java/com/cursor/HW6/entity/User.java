@@ -25,6 +25,7 @@ public class User {
         this.gender = gender;
     }
 
+
     public User(String firstName, String lastName, int age, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;
