@@ -18,9 +18,6 @@ public class Hw6Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        // userRepository.updateUser(new User(3L,"Tomas", "Peterson", 35, "male"));
-        //	System.out.println(userRepository.findUserByFirstNameAndLastName("Jordan","Peterson"));
-        ///	System.out.println(userRepository.getAllUser());
-        userRepository.deleteUserById(2L);
+
     }
 }
